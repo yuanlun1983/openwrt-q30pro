@@ -16,3 +16,4 @@
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+sed -i '$a src-git kiddin9 https://github.com/kiddin9/kwrt-packages.git' feeds.conf.default
